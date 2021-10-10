@@ -60,8 +60,8 @@ public class Botella {
 				}
 			}
 		} else {
-//			System.out.println("CapacityExceeded");
-//			throw new CapacityException("Capacity exceeded");
+			System.out.println("CapacityExceeded");
+			throw new CapacityException("Capacity exceeded");
 		}
 	}
 	
